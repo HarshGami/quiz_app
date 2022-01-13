@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Quiz Project</title>
+</head>
+
+<body onload="run()">
+    <nav>
+        <ul class="headercontainer">
+            <li class="nav" id="leaderboard"><a href="leaderboard.html">View Highscores <i
+                        class="fas fa-hand-point-left fa-lg"></i></i></a>
+            </li>
+            <li class="nav" id="time"></li>
+        </ul>
+    </nav>
+
+    <div id="info" class="info">
+        <h2 id="heading"></h2>
+        <div id="op1" class="op" onclick="op1()"></div>
+        <div id="op2" class="op" onclick="op2()"></div>
+        <div id="op3" class="op" onclick="op3()"></div>
+        <div id="op4" class="op" onclick="op4()"></div>
+        <div id="ans" class="quizinfo"></div>
+        <div id="name" class="quizinfo">Enter initials: <input type="text" name="input" id="initial" required>
+            <a href="index.html"><button class="start" onclick="add()">Submit</button></a>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>

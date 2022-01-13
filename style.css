@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.headercontainer{
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    background-color: #218380;
+    color: white;
+    padding: 0 1rem;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#leaderboard{
+    cursor: pointer;
+}
+
+.info{
+    margin: 4rem auto;
+    width:65vw;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 20px;
+    box-shadow: 10px 10px  5px rgba(155, 154, 154, 0.6);
+    padding: 3rem 2rem;
+}
+
+#highscore{
+    width: 40vw;
+}
+
+.quizinfo{
+    padding-top: 1rem;
+}
+
+.start{
+    margin-top: 1rem;
+    padding: 0.7rem 0.5rem;
+    background-color: #218380;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.op{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: #218380 ;
+    color: white;
+    border-radius: 10px;
+}
+
+#name{
+    display: none;
+}
+
+#initial{
+    padding:0.6rem 1rem;
+    border:1px solid gray;
+    border-radius: 5px;
+    height: 1rem;
+    width: 6rem;
+}
+
+.listitem{
+    list-style-type: none;
+    padding-top: 1rem;
+}
