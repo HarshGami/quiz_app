@@ -40,7 +40,7 @@ const questions = [
 ];
 
 let score = 0;
-let timeleft = 300;
+let timeleft = 50;
   let timer = setInterval(() => {
     if (timeleft < 0) {
       end();
